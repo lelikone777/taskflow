@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+dist-ssr/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+!.env.test.example
+!.env.mock
+*.local
+
+# Python caches and virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and temp
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+temp/
+*.rdb
+
+# Generated local data
+csv_data/
+_issue_board.txt
+_issue_board.zip
+_planning_doc_13xgmr.txt
+_tz_taskflow.txt
+_tz_taskflow.zip

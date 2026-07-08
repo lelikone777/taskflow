@@ -1,0 +1,18 @@
+export { HomePage } from './home/HomePage';
+export { ComponentsDemoPage } from './demo/ComponentsDemoPage';
+export { WidgetsDemoPage } from './widgets/WidgetsDemoPage';
+export { ServicePagesDemoPage } from './service/ServicePagesDemoPage';
+export { LoginPage } from './auth/LoginPage';
+export { ForgotPasswordPage } from './auth/ForgotPasswordPage';
+export { ConfirmEmailPage } from './auth/ConfirmEmailPage';
+export { ResetPasswordPage } from './auth/ResetPasswordPage';
+export { DashboardPage } from './dashboard/DashboardPage';
+export { FlowPage } from './flow/FlowPage';
+export { ProjectPage } from './project/ProjectPage';
+export { TaskPage } from './task/TaskPage';
+export { ProfilePage } from './profile/ProfilePage';
+export { NotFoundPage } from './not-found';
+export { ErrorPage } from './error/ErrorPage';
+export { LoadingPage } from './loading/LoadingPage';
+export type { ErrorPageProps } from './error/ErrorPage';
+export type { LoadingPageProps } from './loading/LoadingPage';

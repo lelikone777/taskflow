@@ -1,0 +1,24 @@
+import type { SVGProps } from 'react';
+
+type IconProps = SVGProps<SVGSVGElement>;
+
+export function ClockIcon({ className, ...props }: IconProps) {
+  return (
+    <svg
+      className={className}
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M12 8V12L14.5 13M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12Z" stroke="#4E8EE3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+  );
+}
+
